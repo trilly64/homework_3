@@ -4,6 +4,7 @@ body {
 	margin-left: 150px;
 	margin-right: 150px;
 	height: 100%;
+	font: 15px sans-serif;
 }
 footer {
 	padding-bottom: 50px;
@@ -11,25 +12,22 @@ footer {
 img {
 	margin: 50px 0px 40px;
 }
-
+nav {
+    background-image: linear-gradient(#4e4d4d, rgb(21, 17, 21));
+	height: 40px;
+}
 ul.product li {
-	font: 15px sans-serif;
 	display: block;
 	border-top: 1px solid #c8c8c8;
 	border-left: 1px solid #c8c8c8;
 	border-right: 1px solid #c8c8c8;
 	color: #656363;
 }
-nav {
-    background-image: linear-gradient(#4e4d4d, rgb(21, 17, 21));
-	height: 40px;
-}
 ul.product {
 	border-bottom: 1px solid #c8c8c8;
 }
 ul.bottom_menu a {
 	color: #2c2c2c;
-	font: 15px sans-serif;
 	text-shadow: none;
 }
 ul.product a {
@@ -37,10 +35,8 @@ ul.product a {
 	color: #656363;
 }
 a {
-	display: block;
 	color: #ffffff;
 	text-decoration: none;
-	font: 15px sans-serif;
 }
 li {
 	padding: 10px 24px;
@@ -63,7 +59,7 @@ li {
 }
 .content {
 	height: 680px;
-	width: 1270px;
+	width: 100%;
 }
 .left_menu {
 	margin-right: 50px; 
@@ -73,19 +69,19 @@ li {
 }
 #bike {
 	width: 680px;
+	padding-top: 50px;
+	padding-right: 275px;
+	padding-bottom: 50px;
+	padding-left: 240px;
 	border: 1px solid #c8c8c8;
 }
 #all_rights {
 	color: #2c2c2c;
 	margin-left: 860px;
-	font: 15px sans-serif;
 	text-shadow: none;
 }
 a:hover {
-	background: #3b3b3b;
-	border-left: #838383;
-	border-right: #838383;
+	background-image: linear-gradient(#2e2e2e, rgb(21, 17, 21));
+	border-left: 1px solid #838383;
+	border-right:1px solid #838383;
 } 
-div p {
-	font: 15px sans-serif;
-}
