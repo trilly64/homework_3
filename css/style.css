@@ -3,6 +3,7 @@ body {
 	background-color: #f9f9f9;
 	margin-left: 150px;
 	margin-right: 150px;
+	height: 100%;
 }
 footer {
 	padding-bottom: 50px;
@@ -10,21 +11,33 @@ footer {
 img {
 	margin: 50px 0px 40px;
 }
+
 ul.product li {
 	font: 15px sans-serif;
 	display: block;
-	border: 1px solid #c8c8c8;
+	border-top: 1px solid #c8c8c8;
+	border-left: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
 	color: #656363;
 }
 ul.menu {
 	background-color: #535252;
 	height: 40px;
 }
+ul.product {
+	border-bottom: 1px solid #c8c8c8;
+}
 ul.bottom_menu a {
 	color: #2c2c2c;
 	font: 15px sans-serif;
 	text-shadow: none;
 }
+ul.product a {
+	text-shadow: none;
+	color: #656363;
+}
+
+
 a {
 	display: block;
 	color: #ffffff;
@@ -41,6 +54,7 @@ li {
 	border-left: 1px solid #c8c8c8;
 	border-right: 1px solid #c8c8c8;
 	background-color: #ffffff;
+	height: 100%;
 }
 .container {
 	margin-top: 40px;
@@ -55,9 +69,9 @@ li {
 }
 .left_menu {
 	margin-right: 50px; 
-		float: left;
-		width: 240px;
-		height: 680px;
+	float: left;
+	width: 240px;
+	height: 680px;
 }
 #bike {
 	width: 680px;
