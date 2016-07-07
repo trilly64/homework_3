@@ -13,26 +13,24 @@ nav {
     background-image: linear-gradient(#4e4d4d, rgb(21, 17, 21));
 	height: 40px;
 }
-ul.product li {
+#nav a {
+	color: #ffffff;
+}
+#product li {
 	display: block;
 	border-top: 1px solid #c8c8c8;
 	border-left: 1px solid #c8c8c8;
 	border-right: 1px solid #c8c8c8;
 	color: #656363;
 }
-ul.product {
+#product {
 	border-bottom: 1px solid #c8c8c8;
 }
-ul.bottom_menu a {
-	color: #2c2c2c;
-	text-shadow: none;
-}
-ul.product a {
+#product a {
 	text-shadow: none;
 	color: #656363;
 }
 a {
-	color: #ffffff;
 	text-decoration: none;
 }
 li {
@@ -72,13 +70,29 @@ li {
 	padding-left: 240px;
 	border: 1px solid #c8c8c8;
 }
+#bottom_menu a {
+	color: #2c2c2c;
+	text-shadow: none;
+}
 #all_rights {
 	color: #2c2c2c;
 	margin-left: 860px;
 	text-shadow: none;
 }
-a:hover {
+#logo {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+#nav a:hover {
 	background-image: linear-gradient(#2e2e2e, rgb(21, 17, 21));
 	border-left: 1px solid #838383;
 	border-right:1px solid #838383;
 } 
+#product a:hover {
+	background: #f9f9f9;
+	color: #2c2c2c;
+	/* Cделать, чтоб смещалась ссылка и фон был ссылкой. Не забыть transition*/
+}
+/*у макета нет границы внизу, т.е. белое всегда до низа
+даже при изменении масштаба просмотра в браузере*/
+
