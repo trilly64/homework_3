@@ -9,12 +9,18 @@ body {
 footer {
 	padding-bottom: 50px;
 }
-nav {
+ul#nav {
     background-image: linear-gradient(#4e4d4d, rgb(21, 17, 21));
 	height: 40px;
 }
 #nav a {
 	color: #ffffff;
+	display: block;
+	background-image: linear-gradient(#4e4d4d, rgb(21, 17, 21));
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	line-height: 40px;
 }
 #product li {
 	display: block;
@@ -29,24 +35,31 @@ nav {
 #product a {
 	text-shadow: none;
 	color: #656363;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 24px;
 }
 a {
 	text-decoration: none;
 }
 li {
-	padding: 10px 24px;
 	display: inline-block;
 	text-shadow: 2px 2px #393838;
+}
+p {
+	line-height: 30px;
+	padding-right: 20px;
 }
 .bg{
 	padding: 0px 45px 0px;
 	border-left: 1px solid #c8c8c8;
 	border-right: 1px solid #c8c8c8;
 	background-color: #ffffff;
-	height: 100%;
 }
 .container {
 	margin-top: 40px;
+	height: 100vh;
 }
 .panel {
 	height: 40px;
@@ -73,6 +86,8 @@ li {
 #bottom_menu a {
 	color: #2c2c2c;
 	text-shadow: none;
+	padding: 10px 24px;
+	line-height: 40px;
 }
 #all_rights {
 	color: #2c2c2c;
@@ -87,12 +102,12 @@ li {
 	background-image: linear-gradient(#2e2e2e, rgb(21, 17, 21));
 	border-left: 1px solid #838383;
 	border-right:1px solid #838383;
+	transition: all 0.2s ease 0.2s;
 } 
 #product a:hover {
 	background: #f9f9f9;
 	color: #2c2c2c;
-	/* Cделать, чтоб смещалась ссылка и фон был ссылкой. Не забыть transition*/
+	padding-left: 30px;
+	transition: all 0.2s ease 0.2s;
 }
-/*у макета нет границы внизу, т.е. белое всегда до низа
-даже при изменении масштаба просмотра в браузере*/
 
