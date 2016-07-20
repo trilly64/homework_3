@@ -7,6 +7,8 @@ body {
 	font: 15px sans-serif;
 }
 footer {
+	clear:both;
+	padding-top:50px;
 	padding-bottom: 50px;
 }
 ul#nav {
@@ -53,8 +55,12 @@ li {
 	text-shadow: 2px 2px #393838;
 }
 p {
-	line-height: 30px;
+	position: absolute;
+	top: 550px;
+	left: 280px;
+	line-height: 22px;
 	padding-right: 20px;
+	font-size: 13px;
 }
 .bg{
 	padding: 0px 45px 0px;
@@ -64,6 +70,9 @@ p {
 }
 .container {
 	margin-top: 40px;
+	height: 100vh;position: relative;
+	margin-top: 40px;
+	width: 970px;
 	height: 100vh;
 }
 .panel {
@@ -75,17 +84,16 @@ p {
 	width: 100%;
 }
 .left_menu {
-	margin-right: 50px; 
 	float: left;
 	width: 240px;
 	height: 680px;
 }
 #bike {
+	position: absolute;
+	left: 280px;
 	width: 680px;
 	padding-top: 50px;
-	padding-right: 275px;
 	padding-bottom: 50px;
-	padding-left: 240px;
 	border: 1px solid #c8c8c8;
 }
 #bottom_menu a {
@@ -96,7 +104,7 @@ p {
 }
 #all_rights {
 	color: #2c2c2c;
-	margin-left: 860px;
+	margin-left: 320px;
 	text-shadow: none;
 }
 #logo {
