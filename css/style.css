@@ -59,7 +59,8 @@ p {
 	top: 550px;
 	left: 280px;
 	line-height: 22px;
-	padding-right: 20px;
+	right: 47px;
+	text-align: justify;
 	font-size: 13px;
 }
 .bg{
@@ -122,5 +123,8 @@ p {
 	color: #2c2c2c;
 	padding-left: 30px;
 	transition: all 0.2s ease 0.2s;
+}
+#bottom_menu a:hover {
+	text-decoration: underline;
 }
 
